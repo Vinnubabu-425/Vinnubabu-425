@@ -1,0 +1,8 @@
+﻿
+	
+	Hi, Please make it a priority to save your work data on daily basis in two locations
+
+	1.GIT REPOSITORY: Save your code changes and project files to our designated Git repository
+
+	2.CLOUD MACHINE: Rename the folder on desktop named 24NAG0528- with your user ID(Ex-24NAG0528-01)
+	provided by RPS and save your work there, This provides an additional layer of backup and immediate access to your data.

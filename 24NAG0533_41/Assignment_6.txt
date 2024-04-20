@@ -1,0 +1,40 @@
+#include <stdio.h>
+//#include <stdlib.h>
+
+void print( void *param, int x)
+{
+        if (x == 1)
+        {
+                char *cp = (char *)param;
+                printf("   %c\n",*cp);
+        }
+        else if (x == 2)
+        {
+                int *ip = (int *)param;
+                printf("       %d \n",*ip);
+        }
+        else
+        {
+                float *fp = (float *)param;
+                printf("              %f\n",*fp);
+        }
+
+}
+
+int main(int argc, char argv[])
+{
+        char grade;
+        int val ;
+        float pi;
+
+        grade =  atoi(argv[1]);
+        val = atoi(argv[2]);
+        pi = atoi(argv[3]);
+
+        print(&grade,1);
+        print(&val,2);
+        print(&pi,3);
+
+        return 0;
+}
+
